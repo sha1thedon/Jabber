@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox fx:id="person" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="90.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bham.fsd.assignments.jabberserver.followController">
+   <children>
+      <Label fx:id="name" alignment="CENTER" prefHeight="91.0" prefWidth="126.0" text="empty" underline="true" wrapText="true" />
+      <ImageView fx:id="imgF" fitHeight="90.0" fitWidth="77.0" onMouseClicked="#followed" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</HBox>
